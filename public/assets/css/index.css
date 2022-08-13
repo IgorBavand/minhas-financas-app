@@ -1,0 +1,178 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	background-color: #282a36;
+	color: #bd93f9;
+}
+
+.caixa-registros{
+	border: 5px solid #bd93f9;
+	border-radius: 20px;
+}
+
+.caixa-registros:hover{
+	border: 5px solid blueviolet;
+	background-color: #13134b;
+	border-radius: 20px;
+}
+
+.link-registros{
+	color: #bd93f9;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.link-registros:hover{
+	color: #bd93f9;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+
+.informacoes {
+	font-weight: bold !important; 
+	color:rgb(255, 0, 0) !important;
+}
+
+.set-icone-home {
+	margin-top: 5%;
+	display: flex;
+    align-items: center; 
+    justify-content: center; 
+
+}
+
+.botoes{
+	background-color: #6A5ACD;
+}
+
+.botoes:hover{
+	background-color: #000080;
+}
+
+
+
+
+.center{
+	position: relative;
+	margin-top: 5%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+input[type="checkbox"]{
+	position: relative;
+	width: 40px;
+	height: 20px;
+	-webkit-appearance: none;
+	background: #c6c6c6;
+	outline: none;
+	border-radius: 20px;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, .2);
+	transition: .5s;
+}
+input:checked[type="checkbox"]{
+	background: #03a9f4;
+}
+input[type="checkbox"]:before{
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+	top: 0;
+	left: 0;
+	background: #fff;
+	transform: scale(1,1);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, .2);
+	transition: .5s;
+}
+input:checked[type="checkbox"]:before{
+	left: 20px;
+}
+
+
+.icone-home{
+	height: 30%;
+	width: 30%;
+}
+
+.letra-home{
+	font-size: 30px;
+}
+
+@media (max-width: 750px)
+{
+  .icone-home {
+	  width: 70%;
+	  height: auto;
+
+	}
+
+	.letra-home{
+		font-size: 25px;
+	}
+}
+.hero-section {
+	height: 100vh;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-weight: 600;
+	color: #bd93f9;
+}
+p {
+	font-size: 14.1px;
+	color: #bd93f9;
+	line-height: 2.2;
+	font-weight: 500;
+}
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 16px;
+}
+.hero-text {
+	text-align: center;
+}
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+	color: #fff;
+}
