@@ -13,5 +13,9 @@ use App\Http\Controllers\RegistroController;
 |
 */
 
-Route::get('/', [RegistroController::class, 'home']);
+Route::get('/', [RegistroController::class, 'home'])->name('home');
 Route::get('/registro/{ano}/{mes}', [RegistroController::class, 'verRegistro']);
+
+Route::post('/gerar-registro', [RegistroController::class, 'novoRegistro']);
+//Route::delete();
+

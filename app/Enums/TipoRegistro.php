@@ -2,10 +2,10 @@
 
 namespace App\Enums;
 
-enum TipoRegistro : string {
+enum TipoRegistro : int {
     
-    case GANHO = 'GANHO';
+    case GANHO = 1;
 
-    case DESPESA = 'DESPESA';
+    case DESPESA = 2;
 
 }

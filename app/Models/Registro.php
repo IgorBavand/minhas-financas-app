@@ -12,8 +12,7 @@ class Registro extends Model
 {
     use HasFactory; 
 
-    protected $casts = [
-        'tipo' => TipoRegistro::class,
-        'mes' => Meses::class
-    ];
+    protected $fillable=['id','valor', 'descricao', 'ano', 'mes', 'tipo'];
+
+
 }

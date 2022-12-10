@@ -28,6 +28,8 @@
     <script src="{{url('assets/js/mixitup.min.js')}}"></script>
     <script src="{{url('assets/js/circle-progress.min.js')}}"></script>
     <script src="{{url('assets/js/owl.carousel.min.js')}}"></script>
-    <script src="{{url('asstes/js/main.js')}}"></script>
+    <script src="{{url('assets/js/main.js')}}"></script>
+    <script src="{{url('assets/js/mostrar-form.js')}}"></script>
+
     
 </html>
