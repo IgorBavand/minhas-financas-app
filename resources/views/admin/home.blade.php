@@ -64,7 +64,7 @@
                   <option value="SET">Setembro</option>
                   <option value="OUT">Outubro</option>
                   <option value="NOV">Novembro</option>
-                  <option value="DEZ">Desembro</option>
+                  <option value="DEZ">Dezembro</option>
 
                 </select>
               </div>
