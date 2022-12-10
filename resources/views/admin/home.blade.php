@@ -25,11 +25,11 @@
     </div>
 
     <div class="add-registro">
-        <button id="show-or-hide" class="btn mt-3">Adicionar Registro</button>
+        <button id="show-or-hide" class="btn mt-3">Adicionar movimentação financeira</button>
     </div>
 
     <div class="container mt-3 form-registro border">
-        <h4 class="text-center">Novo Registro</h4>
+        <h4 class="text-center">Nova movimentação financeira</h4>
 
         <form action="{{url('/gerar-registro')}}" method="POST">
         @csrf
